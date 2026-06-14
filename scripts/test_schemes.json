@@ -1,0 +1,62 @@
+[
+  {
+    "query": "Immediate Relief Assistance for Fishermen",
+    "expected": "Not Rumor",
+    "note": "Exact match for a real scheme"
+  },
+  {
+    "query": "financial help for fishermen families",
+    "expected": "Not Rumor",
+    "note": "Semantic match for a real scheme"
+  },
+  {
+    "query": "free laptop for visually impaired students in Odisha",
+    "expected": "Not Rumor",
+    "note": "Specifically mentioned in govt_schemes.csv"
+  },
+  {
+    "query": "PM Kisan 6000 rupees",
+    "expected": "Not Rumor",
+    "note": "Real Central scheme (PM Kisan Samman Nidhi)"
+  },
+  {
+    "query": "Incentive for Intra Caste Marriage in Karnataka",
+    "expected": "Not Rumor",
+    "note": "Real scheme"
+  },
+  {
+    "query": "free iPhone scheme from PM Modi",
+    "expected": "Rumor",
+    "note": "Obvious fake"
+  },
+  {
+    "query": "10000 per month for every unemployed person in India",
+    "expected": "Rumor",
+    "note": "Classic rumor"
+  },
+  {
+    "query": "PM Free Electricity Scheme for all dog owners",
+    "expected": "Rumor",
+    "note": "Random fake"
+  },
+  {
+    "query": "Garuda Scheme for poor brahmins",
+    "expected": "Not Rumor",
+    "note": "Real scheme in Andhra Pradesh"
+  },
+  {
+    "query": "Free Petrol for motorbike owners under PM Petrol Yojana",
+    "expected": "Rumor",
+    "note": "Fake petrol scheme"
+  },
+  {
+    "query": "Free gold coins for new marriages in Delhi",
+    "expected": "Rumor",
+    "note": "Fake marriage gift"
+  },
+  {
+    "query": "Pradhan Mantri Laptop Sahayata Yojana 2026",
+    "expected": "Rumor",
+    "note": "Often a phishing site topic"
+  }
+]

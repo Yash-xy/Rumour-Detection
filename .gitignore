@@ -1,0 +1,46 @@
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+*.egg-info/
+*.eggs/
+build/
+dist/
+
+# ─── Virtual Environments ─────────────────────────────────────────────────────
+.venv/
+venv/
+ENV/
+
+# ─── Database ─────────────────────────────────────────────────────────────────
+*.db
+*.sqlite3
+
+# ─── ML Artifacts (large binary files) ────────────────────────────────────────
+backend/scheme_index.faiss
+backend/scheme_metadata.pkl
+
+# ─── Node / Frontend ─────────────────────────────────────────────────────────
+node_modules/
+frontend/dist/
+
+# ─── Environment & Secrets ────────────────────────────────────────────────────
+.env
+!.env.example
+!frontend/.env.example
+
+# ─── OS / IDE ─────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ─── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+
+# ─── Docker ───────────────────────────────────────────────────────────────────
+*.tgz

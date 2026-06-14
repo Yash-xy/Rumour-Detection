@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.env
+.venv
+venv
+node_modules
+*.egg-info
+*.sqlite3
+*.db
+*.log
+build/
+dist/
+.git
+*.tgz
+__pycache__
+
+# Ignore local files that may be large
+scheme_index.faiss
+scheme_metadata.pkl

@@ -1,0 +1,17 @@
+pandas
+numpy
+sentence-transformers
+scikit-learn
+faiss-cpu
+fastapi
+uvicorn
+pydantic
+sqlalchemy
+passlib[bcrypt]
+python-jose[cryptography]
+psycopg2-binary
+google-generativeai
+
+python-multipart==0.0.26
+
+python-dotenv==1.2.2
