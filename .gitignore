@@ -19,8 +19,7 @@ ENV/
 *.sqlite3
 
 # ─── ML Artifacts (large binary files) ────────────────────────────────────────
-backend/scheme_index.faiss
-backend/scheme_metadata.pkl
+# (Removed to allow pushing to Hugging Face Spaces)
 
 # ─── Node / Frontend ─────────────────────────────────────────────────────────
 node_modules/
