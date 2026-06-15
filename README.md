@@ -15,7 +15,7 @@ A full-stack web application that verifies the authenticity of claims about Indi
 
 - **Rumor Detection** — Paste any text to verify against official scheme data
 - **Related Schemes** — View 4 most similar government schemes with details
-- **Public History** — See what rumors everyone is searching
+- **Public History** — See past search data
 - **Personal History** — Track your own searches (requires login)
 - **Analytics Dashboard** — Charts, trends, and top-queried schemes
 - **Hindi Support** — Full UI translation toggle (EN / हिंदी)
